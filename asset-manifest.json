@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/insta-clone/static/css/main.d68d0f07.chunk.css",
-    "main.js": "/insta-clone/static/js/main.e536dbf8.chunk.js",
-    "main.js.map": "/insta-clone/static/js/main.e536dbf8.chunk.js.map",
-    "runtime-main.js": "/insta-clone/static/js/runtime-main.93c8325f.js",
-    "runtime-main.js.map": "/insta-clone/static/js/runtime-main.93c8325f.js.map",
-    "static/js/2.f3a31639.chunk.js": "/insta-clone/static/js/2.f3a31639.chunk.js",
-    "static/js/2.f3a31639.chunk.js.map": "/insta-clone/static/js/2.f3a31639.chunk.js.map",
-    "static/js/3.d1bc56d6.chunk.js": "/insta-clone/static/js/3.d1bc56d6.chunk.js",
-    "static/js/3.d1bc56d6.chunk.js.map": "/insta-clone/static/js/3.d1bc56d6.chunk.js.map",
+    "main.css": "/insta-clone/static/css/main.00d35341.chunk.css",
+    "main.js": "/insta-clone/static/js/main.04d15be6.chunk.js",
+    "main.js.map": "/insta-clone/static/js/main.04d15be6.chunk.js.map",
+    "runtime-main.js": "/insta-clone/static/js/runtime-main.13afee89.js",
+    "runtime-main.js.map": "/insta-clone/static/js/runtime-main.13afee89.js.map",
+    "static/js/2.f1dc9902.chunk.js": "/insta-clone/static/js/2.f1dc9902.chunk.js",
+    "static/js/2.f1dc9902.chunk.js.map": "/insta-clone/static/js/2.f1dc9902.chunk.js.map",
+    "static/js/3.b81936e3.chunk.js": "/insta-clone/static/js/3.b81936e3.chunk.js",
+    "static/js/3.b81936e3.chunk.js.map": "/insta-clone/static/js/3.b81936e3.chunk.js.map",
     "index.html": "/insta-clone/index.html",
-    "static/css/main.d68d0f07.chunk.css.map": "/insta-clone/static/css/main.d68d0f07.chunk.css.map",
-    "static/js/2.f3a31639.chunk.js.LICENSE.txt": "/insta-clone/static/js/2.f3a31639.chunk.js.LICENSE.txt",
+    "static/css/main.00d35341.chunk.css.map": "/insta-clone/static/css/main.00d35341.chunk.css.map",
+    "static/js/2.f1dc9902.chunk.js.LICENSE.txt": "/insta-clone/static/js/2.f1dc9902.chunk.js.LICENSE.txt",
     "static/media/instaLogo.e7279cf3.png": "/insta-clone/static/media/instaLogo.e7279cf3.png",
     "static/media/labtob.9b61edfc.jpg": "/insta-clone/static/media/labtob.9b61edfc.jpg",
     "static/media/teamwork.a42f0336.svg": "/insta-clone/static/media/teamwork.a42f0336.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.93c8325f.js",
-    "static/js/2.f3a31639.chunk.js",
-    "static/css/main.d68d0f07.chunk.css",
-    "static/js/main.e536dbf8.chunk.js"
+    "static/js/runtime-main.13afee89.js",
+    "static/js/2.f1dc9902.chunk.js",
+    "static/css/main.00d35341.chunk.css",
+    "static/js/main.04d15be6.chunk.js"
   ]
 }
