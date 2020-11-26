@@ -83,7 +83,6 @@ export default function UserSlider() {
         style={{
           textAlign: "center",
           width: "80px",
-          marginRight: "80px",
         }}
       >
         <div
