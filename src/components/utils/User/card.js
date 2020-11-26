@@ -40,7 +40,7 @@ export default function Card({ data }) {
           style={{
             color: "#FF1744",
             position: "absolute",
-            right: "10px",
+            right: "0px",
             cursor: "pointer",
           }}
         />
