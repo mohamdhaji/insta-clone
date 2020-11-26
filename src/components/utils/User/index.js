@@ -10,36 +10,42 @@ export default function Dashboard() {
         background: background,
         city: "paris, palestine",
         src: teamwork,
+        id: "11",
       },
       {
         name: "klaus mikaelson",
         background: background,
         city: "paris, palestine",
         src: teamwork,
+        id: "22",
       },
       {
         name: "klaus mikaelson",
         background: background,
         city: "paris, palestine",
         src: teamwork,
+        id: "33",
       },
       {
         name: "klaus mikaelson",
         background: background,
         city: "paris, palestine",
         src: teamwork,
+        id: "44",
       },
       {
         name: "klaus mikaelson",
         background: background,
         city: "paris, palestine",
         src: teamwork,
+        id: "55",
       },
       {
         name: "klaus mikaelson",
         background: background,
         city: "paris, palestine",
         src: teamwork,
+        id: "66",
       },
     ];
 
@@ -48,7 +54,7 @@ export default function Dashboard() {
 
   const showCards = () => {
     const userCards = cards.map((data) => {
-      return <Card data={data} />;
+      return <Card key={data.id} data={data} />;
     });
     return userCards;
   };

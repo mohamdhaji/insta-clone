@@ -37,13 +37,30 @@ export default function Card({ data }) {
         </div>
         <Menu
           size="35px"
-          style={{ color: "#FF1744", marginLeft: "85px", cursor: "pointer" }}
+          style={{
+            color: "#FF1744",
+            position: "absolute",
+            right: "10px",
+            cursor: "pointer",
+          }}
         />
       </div>
       <div
-        style={{ height: "250px", background: `url(${data.background})` }}
+        style={{
+          height: "250px",
+          width: "100%",
+          background: `url(${data.background})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
       ></div>
-      <div style={{ display: "flex", alignItems: "center", height: "55px" }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          height: "55px",
+        }}
+      >
         <Heart
           size="30"
           style={{ color: "#FF1744", marginLeft: "25px", cursor: "pointer" }}
@@ -55,7 +72,12 @@ export default function Card({ data }) {
         <Cursor size="30" style={{ marginLeft: "25px", cursor: "pointer" }} />
         <Bookmark
           size="30"
-          style={{ marginLeft: "90px", color: "#BDBDBD", cursor: "pointer" }}
+          style={{
+            position: "absolute",
+            right: "10px",
+            color: "#BDBDBD",
+            cursor: "pointer",
+          }}
         />
       </div>
     </div>

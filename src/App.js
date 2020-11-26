@@ -6,8 +6,10 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <UserSlider />
-        <Dashboard />
+        <div className="main-section">
+          <UserSlider />
+          <Dashboard />
+        </div>
       </Layout>
     </div>
   );

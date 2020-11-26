@@ -3,6 +3,8 @@ import axios from "axios";
 import background from "../images/labtob.jpg";
 import { RiAddLine as Add } from "react-icons/ri";
 import ImageCard from "./image_card";
+import CircularProgress from "@material-ui/core/CircularProgress";
+
 export default function UserSlider() {
   const [loading, setLoading] = useState(true);
   const [userCards, setUserCards] = useState(() => {
@@ -12,24 +14,28 @@ export default function UserSlider() {
         background: background,
         pTitle: "Technology",
         sTitle: "android",
+        id: "1",
       },
       {
         src: "",
         background: background,
         pTitle: "Travels",
         sTitle: "Airlines",
+        id: "2",
       },
       {
         src: "",
         background: background,
         pTitle: "Transport",
         sTitle: "Truck",
+        id: "3",
       },
       {
         src: "",
         background: background,
         pTitle: "Travels",
         sTitle: "Tours",
+        id: "4",
       },
     ];
 
@@ -38,10 +44,22 @@ export default function UserSlider() {
 
   const showCards = () => {
     if (!loading) {
-      const cards = userCards.map((el, i) => {
-        return <ImageCard key={i} user={el} />;
+      const cards = userCards.map((el) => {
+        return <ImageCard key={el.id} user={el} />;
       });
       return cards;
+    } else {
+      return (
+        <CircularProgress
+          style={{
+            color: "#00bcd4",
+            position: "absolute",
+            left: "130px",
+          }}
+          thickness={7}
+          size="60px"
+        />
+      );
     }
   };
 

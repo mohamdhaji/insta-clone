@@ -14,7 +14,7 @@ html {
   align-items: center;
   box-shadow: 5px 5px 5px #fce4ec;
   z-index: 10;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .sidebar {
@@ -38,21 +38,29 @@ html {
 }
 
 .user-slider {
-  margin-left: 300px;
+  margin-left: 70px;
+  position: relative;
   display: flex;
   flex-direction: row;
   margin-top: 110px;
   align-items: center;
+  justify-content: space-between;
+}
+
+.main-section {
   width: calc(100vh-230px);
+  margin-left: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 }
 
 .image-card {
   margin-right: 80px;
+  width: 29%;
 }
 .dashboard {
-  margin-left: 230px;
-
-  width: calc(100%-230px);
+  /* margin-left: 230px; */
 }
 .card {
   height: 360px;
@@ -60,6 +68,7 @@ html {
   margin: 20px;
   box-shadow: 5px 5px 5px #9e9e9e;
   border: 1px solid black;
+  position: relative;
 }
 .card-container {
   display: flex;

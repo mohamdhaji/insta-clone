@@ -37,24 +37,27 @@ export default function Header() {
           <SearchIcon />
         </IconButton>
       </Paper>
-
-      <ProfileImg src={teamwork} size="55px" />
       <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          margin: "14px",
-        }}
+        style={{ display: "flex", alignItems: "center", marginRight: "20px" }}
       >
-        <span style={{ fontWeigth: "bold", color: "#F50057" }}>
-          klaus mikaelson
-        </span>
-        <span style={{ color: "#9E9E9E", fontSize: "12px" }}>
-          Actress, evil
-        </span>
-        <span style={{ color: "#9E9E9E", fontSize: "12px" }}>
-          paris, palestine
-        </span>
+        <ProfileImg src={teamwork} size="55px" />
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            margin: "14px",
+          }}
+        >
+          <span style={{ fontWeigth: "bold", color: "#F50057" }}>
+            klaus mikaelson
+          </span>
+          <span style={{ color: "#9E9E9E", fontSize: "12px" }}>
+            Actress, evil
+          </span>
+          <span style={{ color: "#9E9E9E", fontSize: "12px" }}>
+            paris, palestine
+          </span>
+        </div>
       </div>
     </header>
   );
